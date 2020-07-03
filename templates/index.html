@@ -1,0 +1,651 @@
+{% extends 'base.html' %} {% block title %}HOME{% endblock title %} {% block body %} {% comment %} insert compnonent crusor bootstrap{% endcomment %}
+
+<div class="container-fluid px-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/static/main3.jfif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/static/main1.jfif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/static/main2.jfif" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+
+
+
+{% comment %} inser example album bootstrap {% endcomment %}
+
+<!-- ---Laptops---- -->
+
+<div class="album py-lg-4">
+    <div class="container">
+        <h1 class="display-4 my-3">
+            <a href="/laptop" class="btn btn-primary btn-lg">Laptops</a>
+        </h1>
+        <div class="row">
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/laptop/dell5420.jpg" width="300" height="200" alt="Dell 5420">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell5430.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell6430.jpg" width="300" height="200" alt="Dell 6430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 6430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/lenovox131e.jpg" width="300" height="200" alt="Lenovo X131e">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lenovo X131e</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 10500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54301.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54201.jpg" width="300" height="200" alt="Dell 5420">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54302.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell64301.jpg" width="300" height="200" alt="Dell 6430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 6430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----computer---- -->
+<div class="album py-lg-4">
+    <div class="container">
+        <h1 class="display-4 my-3">
+            <a href="/computer" class="btn btn-primary btn-lg">Computers/Accessories</a>
+        </h1>
+        <div class="row">
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/computer/pc1.jpg" width="300" height="200" alt="Dell Pc">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/computer/pc2.jpg" width="300" height="200" alt="pc">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/computer/pc3.jpg" width="300" height="200" alt="pc">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/computer/powerc1.jpg" width="300" height="200" alt="cable">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/computer/mouse1.jpg" width="300" height="200" alt="mouse">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/computer/powerc2.jpg" width="300" height="200" alt="cable">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/computer/powerc3.jpg" width="300" height="200" alt="cable">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/computer/pc1.jpg" width="300" height="200" alt="pc">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---Mobile--- -->
+
+<div class="album py-lg-4">
+    <div class="container">
+        <h1 class="display-4 my-3">
+            <a href="/laptop" class="btn btn-primary btn-lg">Mobile</a>
+        </h1>
+        <div class="row">
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/laptop/dell5420.jpg" width="300" height="200" alt="Dell 5420">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell5430.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell6430.jpg" width="300" height="200" alt="Dell 6430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 6430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/lenovox131e.jpg" width="300" height="200" alt="Lenovo X131e">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lenovo X131e</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 10500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54301.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54201.jpg" width="300" height="200" alt="Dell 5420">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54302.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell64301.jpg" width="300" height="200" alt="Dell 6430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 6430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---Printers--- -->
+<div class="album py-lg-4">
+    <div class="container">
+        <h1 class="display-4 my-3">
+            <a href="/mobile" class="btn btn-primary btn-lg">Printers</a>
+        </h1>
+        <div class="row">
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/printer/u1.jpg" width="300" height="200" alt="hp 2014">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 2014</h5>
+                        <p class="card-text"> 14ppm, 1200 dpi </p>
+                        <h5> Rs. 8500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/printer/u2.jpg" width="300" height="200" alt="hp 2055">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 2055</h5>
+                        <p class="card-text"> 40ppm, 1200dpi </p>
+                        <h5> Rs. 12500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/printer/u3.jpg" width="300" height="200" alt="hp 400">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 400</h5>
+                        <p class="card-text"> 55ppm, 1200 dpi </p>
+                        <h5> Rs. 15000 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/printer/u4.jpg" width="300" height="200" alt="hp 1522">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 1522</h5>
+                        <p class="card-text"> Printer, Photocopy, scanner, fax </p>
+                        <h5> Rs. 16500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/printer/u5.jpg" width="300" height="200" alt="hp 1200">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 1200</h5>
+                        <p class="card-text"> 12ppm, 1200dpi </p>
+                        <h5> Rs. 6500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/printer/u6.jpg" width="300" height="200" alt="hp 4015">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 4015</h5>
+                        <p class="card-text"> 40ppm, 1200dpi </p>
+                        <h5> Rs. 16500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/printer/u2.jpg" width="300" height="200" alt="hp 2055">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 2055</h5>
+                        <p class="card-text"> 40ppm, 1200dpi </p>
+                        <h5> Rs. 12500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/printer/u7.jpg" width="300" height="200" alt="hp 1020">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Printer Hp 1020</h5>
+                        <p class="card-text"> 18ppm, 1200dpi </p>
+                        <h5> Rs. 8500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---Speaker--- -->
+
+<div class="album py-lg-4">
+    <div class="container">
+        <h1 class="display-4 my-3">
+            <a href="/laptop" class="btn btn-primary btn-lg">Speakers</a>
+        </h1>
+        <div class="row">
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/speaker/Aqualunar.jpg" width="300" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Aqua </h5>
+                        <p class="card-text"> Aqua Lunar Speaker </p>
+                        <h5> Rs. 4400 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/speaker/blastlunar.jpg" width="300" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Blast </h5>
+                        <p class="card-text"> Blast Lunar Speaker </p>
+                        <h5> Rs. 5400 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/speaker/marslunar.jpg" width="300" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Mars </h5>
+                        <p class="card-text"> Mars Lunar Speaker </p>
+                        <h5> Rs. 4400 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/speaker/micspk.jpg" width="300" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Mic </h5>
+                        <p class="card-text"> MIC postable Speaker </p>
+                        <h5> Rs. 900 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/speaker/pulse4.jpg" width="300" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Pulse-4 </h5>
+                        <p class="card-text"> Pulse-4 Portable Lunar Speaker </p>
+                        <h5> Rs. 22000 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/speaker/pulse5.jpg" width="300" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Pulse-5 </h5>
+                        <p class="card-text"> Pulse-5 Portable Lunar Speaker </p>
+                        <h5> Rs. 2800 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/speaker/twist8.jpg" max-width="auto" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> I Twist 8 </h5>
+                        <p class="card-text"> I Twist 8 Portable Speaker </p>
+                        <h5> Rs. 5400 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/speaker/travel40.jpg" width="300" height="200" alt="speaker">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Travel-40 </h5>
+                        <p class="card-text"> Trave-40 portable Speaker </p>
+                        <h5> Rs. 5400 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ---Others--- -->
+
+<div class="album py-lg-4">
+    <div class="container">
+        <h1 class="display-4 my-3">
+            <a href="/laptop" class="btn btn-primary btn-lg">Others</a>
+        </h1>
+        <div class="row">
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    {% comment %} "https://source.unsplash.com/600x400/?Desktop Computer,table" {% endcomment %}
+                    <img src="/static/others/up 1050va.jpg" width="300" height="200" alt="UPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">UPS 650va</h5>
+                        <p class="card-text">650va/360W 240V (Short Backup - With Battery)</p>
+                        <h5> Rs. 7500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/others/up 1050va.jpg" width="300" height="200" alt="UPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">UPS 1050</h5>
+                        <p class="card-text">1050va/360W 240V (Short Backup - With Battery)</p>
+                        <h5> Rs. 15000 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/others/wintable1.jpg" width="300" height="200" alt="Table">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Computer Table</h5>
+                        <p class="card-text"> Computer Table, 2fit, print windows logo</p>
+                        <h5> Rs. 3800 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/others/wintable2.jpg" width="300" height="200" alt="Lenovo X131e">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Computer Table</h5>
+                        <p class="card-text"> Computer Table, 2.5fit, Print Window logo</p>
+                        <h5> Rs. 4500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/others/chntable2.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Computer Table</h5>
+                        <p class="card-text"> Imported China, 3.5fit, </p>
+                        <h5> Rs. 7800 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54201.jpg" width="300" height="200" alt="Dell 5420">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5420</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 18500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell54302.jpg" width="300" height="200" alt="Dell 5430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 5430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-3 mx-auto">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/static/laptop/dell64301.jpg" width="300" height="200" alt="Dell 6430">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dell 6430</h5>
+                        <p class="card-text"> 4GB, 250GB, DVD </p>
+                        <h5> Rs. 20500 </h5>
+                        <a href="/contact" class="btn btn-primary"> Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock body %}
