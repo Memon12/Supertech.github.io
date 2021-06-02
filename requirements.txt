@@ -31,7 +31,7 @@ sqlparse==0.3.1
 style==1.1.0
 toml==0.10.1
 update==0.0.1
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.25
 webencodings==0.5.1
 wrapt==1.12.1
